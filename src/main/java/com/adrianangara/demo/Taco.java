@@ -1,6 +1,6 @@
 // tag::all[]
 // tag::allButValidation[]
-package tacos;
+package com.adrianangara.demo;
 import java.util.List;
 // end::allButValidation[]
 import javax.validation.constraints.NotNull;
