@@ -11,6 +11,10 @@ import lombok.Data;
 @Data
 public class Taco {
 
+    private Long id;
+
+    private Date createdAt;
+
     // end::allButValidation[]
     @NotNull
     @Size(min=5, message="Name must be at least 5 characters long")
